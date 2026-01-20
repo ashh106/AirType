@@ -54,3 +54,25 @@ The project is built using **MediaPipe Hands (Solutions API)** and **OpenCV**, f
 - **Check installed Python versions**
   ```powershell
   py -0
+  # 1. Clone the repository
+  git clone https://github.com/ashh106/AirType.git
+  cd AirType
+  # 2. Create a virtual environment
+  python -m venv .venv
+  # 3. Activate the virtual environment
+  # Windows (PowerShell)
+  .venv\Scripts\Activate.ps1
+
+  # Windows (CMD)
+  .venv\Scripts\activate
+
+  # macOS / Linux
+  source .venv/bin/activate
+  # 4. Upgrade pip
+  python -m pip install --upgrade pip
+  # 5. Install dependencies
+  pip install -r requirements.txt
+  # 6. Run the project (example: phase 1)
+  python phase1_hand_tracking.py
+  # 7. Deactivate the virtual environment (when done)
+  deactivate

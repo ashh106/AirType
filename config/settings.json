@@ -1,0 +1,7 @@
+{
+  "camera_index": 0,
+  "canvas_width": 800,
+  "canvas_height": 600,
+  "draw_pinch_threshold": 40,
+  "erase_pinch_threshold": 40
+}

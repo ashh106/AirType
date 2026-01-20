@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+*_env/
+airtype_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Build artifacts
+*.exe
+*.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
